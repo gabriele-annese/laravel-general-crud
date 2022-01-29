@@ -4,3 +4,13 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
+body{
+    display: flex;
+    flex-direction: column;
+    main{
+        height: 100vh;
+        background-color: $background;
+        color: $primaryColor;
+    }
+}
